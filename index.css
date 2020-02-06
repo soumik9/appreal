@@ -1,0 +1,179 @@
+/* == Start of About Us CSS */
+.card{
+    width:100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 30px 0 20px 0;
+}
+.card_header h5{
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 15px 0 15px 0;
+}
+.about_info{
+    padding: 15px;
+}
+.icon_color{
+    color: #6c5ce7;
+    font-size: 20px;
+    margin: 0 5px 0 0;
+    position: relative;
+    top:4px;
+}
+.nav-link{
+    padding: 15px 20px 15px 20px;
+    color: #6c5ce7;
+}
+.active{
+    border-top: 5px solid #6c5ce7 !important;
+}
+/* start of right side about section */
+.brief_intro_header{
+    padding: 15px 0px 15px 20px;
+    background: #6c5ce7;
+    font-size: 18px;
+}
+.brief_intro_body{
+    padding: 15px;
+}
+.brief_img{
+    width:250px;
+    height:250px;
+}
+.brief_intro_details{
+    padding: 15px;
+}
+.brief_icon{
+    color: #6c5ce7;
+    font-size: 20px;
+    margin: 0 6px 0 0px;
+    position: relative;
+    top:3px;
+}
+/* end of right side about section */
+/* == End of About Us CSS */
+
+
+/* == Start of Products CSS */
+.card{
+    width:100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 30px 0 20px 0;
+}
+.card_header h5{
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 15px 0 15px 0;
+}
+.card_header_right{
+    padding: 15px;
+    margin-bottom: 0px 0px 15px 0;
+}
+.card_header_right a{
+    text-decoration: none;
+    color: #6c5ce7;
+    margin-right: 50px;
+}
+.see_more_logo{
+    font-size: 20px;
+    position: relative;
+    top:5px;
+}
+/* product body section*/
+.n_product_body{
+    padding: 10px;   
+}
+.n_products_view_more{
+    width:auto;
+    height: auto;
+    padding: 10px;
+    background: #6c5ce7;
+    text-align: center;
+}
+.n_products_view_more a{
+    text-decoration: none;
+    color: white;  
+    
+}
+/* previous next icon */
+.pre_next_button{
+    margin: 40px 0 0 0;
+}
+.pre_next_radius_button{
+    height: 70px;
+}
+.pre_next_button a{
+    text-decoration: none;
+    color: white;
+    background: #6c5ce7;
+    
+    padding: 20px 25px 20px 25px;
+    border-radius: 50%;
+}
+.pre_next_icon{
+
+}
+/* == End of Products CSS */
+
+
+/* == Start of Footer CSS */
+.n-footer-header{
+    margin: 18px 0 0 0;
+}
+.n-footer-list ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.n-footer-list ul li{
+    margin: 13px 0 13px 0; 
+}
+.n-footer-list a{
+    text-decoration: none;
+    color: white;
+}
+.footer_abovesection{
+    margin: 0 0 15px 0;
+}
+.email_form{
+    border-radius: 10px ;
+    height: 50px;
+}
+.button {
+    background-color: #6c5ce7; 
+    border: none;
+    color: white;
+    margin: 15px 0 25px 0;
+    padding: 15px 32px;
+    border-radius: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.social_icon a{
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    width: 25px;
+    border: 1px solid white;
+    float: left;
+    margin: 0 6px 0 0;
+}
+.footer_undersection{
+    margin: 15px 0 15px 0;
+}
+.payment a{
+    padding: 3px;
+}
+.paymet_logo{
+    width:85px;
+    height: 40px;
+    margin: 0 0 15px 0;
+}
+@media only screen and (max-width: 600px) {
+    .paymet_logo {
+        width:150px;
+        height: 50px;
+        margin: 5px 0 5px 0;
+    }
+}
+/* == End of Footer CSS */
